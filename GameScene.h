@@ -23,11 +23,11 @@ private: // エイリアス
 
 	
 
+
 private: // 静的メンバ変数
 	static const int debugTextTexNumber = 0; 
 	
-	Sprite* sprite1 = nullptr;
-	Sprite* sprite2 = nullptr;
+	
 public: // メンバ関数
 	
 	/// <summary>
@@ -58,8 +58,10 @@ public: // メンバ関数
 private: // メンバ変数
 	DirectXCommon* dxCommon = nullptr;
 	Input* input = nullptr;
-	DebugText debugText;	
+	DebugText debugText;
 
+	Sprite* sprite1 = nullptr;
+	Sprite* sprite2 = nullptr;
 	/// <summary>
 	/// ゲームシーン用
 	/// </summary>

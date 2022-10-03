@@ -102,7 +102,7 @@ private: // 静的メンバ変数
 
 public: // メンバ関数
 
-	const XMFLOAT2& GetPosition() { return position; }
+	
 	/// <summary>
 	/// コンストラクタ
 	/// </summary>
@@ -125,7 +125,8 @@ public: // メンバ関数
 	/// </summary>
 	/// <param name="position">座標</param>
 	void SetPosition(const XMFLOAT2& position);
-	
+
+	const XMFLOAT2& GetPosition() { return position; }
 	/// <summary>
 	/// サイズの設定
 	/// </summary>
@@ -161,6 +162,8 @@ public: // メンバ関数
 	/// 描画
 	/// </summary>
 	void Draw();
+
+	
 
 private: // メンバ変数
 	// 頂点バッファ
